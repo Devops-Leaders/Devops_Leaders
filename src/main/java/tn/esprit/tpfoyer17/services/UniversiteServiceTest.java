@@ -1,14 +1,14 @@
-package tn.esprit.tpfoyer17.services;
+package tn.esprit.tpfoyer.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import tn.esprit.tpfoyer17.entities.Universite;
-import tn.esprit.tpfoyer17.entities.Foyer;
-import tn.esprit.tpfoyer17.repositories.FoyerRepository;
-import tn.esprit.tpfoyer17.repositories.UniversiteRepository;
+import tn.esprit.tpfoyer.entity.Universite;
+import tn.esprit.tpfoyer.entity.Foyer;
+import tn.esprit.tpfoyer.repository.FoyerRepository;
+import tn.esprit.tpfoyer.repository.UniversiteRepository;
 
 import jakarta.persistence.EntityNotFoundException;
 import java.util.ArrayList;
